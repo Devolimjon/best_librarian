@@ -1,0 +1,118 @@
+body{
+    height: 100vh;
+    margin: 0;
+    animation: identifier 3s ease-in-out;
+}
+@keyframes identifier {
+    0%{
+        transform: translateY(-500%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+*{
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.input_div{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+}
+.input_email{
+    margin-top: 60px;
+    padding: 14px 65px;
+    border: 4px black solid;
+    border-radius: 15px;
+    outline: none;
+}
+.input_password{
+    padding: 14px 65px;
+    border: 4px black solid;
+    border-radius: 15px;
+    outline: none;
+}
+.button_sign_in{
+    padding: 14px 115px;
+    border-radius: 15px;
+    background-color: rgba(14, 95, 11, 0.801);
+    color: white;
+    text-decoration: none;
+}
+.logo{
+    font-size: 80pt;
+    margin: 0;
+}
+.error{
+    color: white;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-top: 50px;
+    padding: 13px 56px;
+    background-color: red;
+    border-radius: 15px;
+}
+.d-none{
+    display: none;
+}
+
+.top{
+    transition: all 2s ease-in-out;
+    transform: translateY(-500%);
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    animation: boot 3s ease-in-out;
+}
+@keyframes boot {
+    0%{
+        transform: translateY(-500%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
+.menu{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    background-color: rgba(6, 54, 54, 0.65);
+    height: 100vh;
+}
+.con{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    font-family: sans-serif;
+    font-size: 40pt;
+    color: white;
+    font-weight: 700;
+    text-shadow:gray 10px 10px 10px 10px;
+    margin-bottom: 0;
+}
+.menu_btn{
+    border: none;
+    background:none;
+    font-size: 26pt;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: white;
+}
+.color{
+    background-color: rgb(76, 116, 116);
+}
